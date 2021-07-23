@@ -33,7 +33,7 @@ function Square(props){
         }
     }
 
-    handleClick(i) {
+    handl eClick(i) {
         const squares =  this.state.squares.slice();
         if (calculateWinner(squares) || squares[i]) {
             return
